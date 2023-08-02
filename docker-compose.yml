@@ -1,0 +1,20 @@
+version: '3'
+services:
+  gpu:
+    build: ./docker
+    # please set unique container name
+    container_name: lantana
+    # please set unique port number (49152–65535)
+    ports:
+      - "33333:33333"
+      - "22222:22"
+    volumes:
+      - ./src:/mnt/src
+    tty: true
+    shm_size: '2gb'
+    entrypoint: "/bin/bash /cmd.sh"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]

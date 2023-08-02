@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@ga02:22222 agent" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="root@ga02:22222 agent">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/src" local="$PROJECT_DIR$/src" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/docker" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="root@ga02:22222 agent (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/src" local="$PROJECT_DIR$/src" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/docker" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
